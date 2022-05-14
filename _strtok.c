@@ -21,7 +21,7 @@ for(i=0; i<len; i++)
 {
 if(arr[i]=='=')  // here in ' ' is the character upon basis of which you want to tokenize in this code there is space
 {
-arr[i]='\0' ;
+arr[i]='\n' ;
 }
 }
 puts(arr);
