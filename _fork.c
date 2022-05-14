@@ -7,7 +7,7 @@
 * Return: Always 0.
 * gcc -Wall -pedantic -Werror -Wextra -std=gnu89 fork.c -o fork && ./fork
 */ 
-int main(void);
+int main(void)
 {
 pid_t my_pid;
 pid_t child_pid;
