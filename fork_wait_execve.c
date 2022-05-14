@@ -31,6 +31,7 @@ int status;
 /* 	char *argv[] = {"/bin/ls", "-l", "/tmp", NULL}; */
 
 int i;
+int argv[];
 for (i = 0; i < 5; i++) {
 /* Child process PID is always 0 */
 child_pid = fork();
