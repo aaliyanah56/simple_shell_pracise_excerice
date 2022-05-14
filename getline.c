@@ -8,6 +8,7 @@
 */
 
 int main()
+size_t getline (char **string, size_t *n, FILE *stream);
 {
 char *buffer;
 size_t bufsize = 32;
