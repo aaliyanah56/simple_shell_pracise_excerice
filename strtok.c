@@ -11,7 +11,7 @@ int main(void)
 int j, i = 0;
 char str[80] = "hello fatma goodbye";
 char *delim = " ";
-char *result;
+char *res;
 char *words[5];
 
 /* get first token */
