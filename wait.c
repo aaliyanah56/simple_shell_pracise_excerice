@@ -10,8 +10,11 @@
 */
 int main(void)
 {
-mypid_t child_pid;
-ppid_t getppid;
+int pid_t;
+int ppid_t;
+
+pid_t  = child_pid;
+ppid_t = getppid;
 int status;
 
 child_pid = fork();
