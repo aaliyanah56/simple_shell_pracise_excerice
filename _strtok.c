@@ -12,8 +12,8 @@ int main()
 char arr[100];
 int i=0,len=0;
 
-fwrite("Enter string: ");
-getline(arr, 100, stdin);
+printf("Enter string: ");
+fgets(arr, 100, stdin);
 
 len = strlen(arr);
 
