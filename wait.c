@@ -10,11 +10,7 @@
 */
 int main(void)
 {
-int pid_t;
-int ppid_t;
-
-pid_t  = child_pid;
-ppid_t = getppid;
+pid_t child_pid;
 int status;
 
 child_pid = fork();
@@ -25,13 +21,13 @@ return (1);
 }
 if (child_pid == 0)
 {
-printf("child_pid\n", child_pid);
+printf("Wait for me, wait for me\n");
 sleep(3);
 }
 else
 {
 wait(&status);
-printf("ppid_t\n", getpid);
+printf("Oh, it's all better now\n");
 }
 return (0);
 }
