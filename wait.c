@@ -10,7 +10,7 @@
 */
 int main(void)
 {
-pid_t child_pid;
+mypid_t child_pid;
 ppid_t getppid;
 int status;
 
