@@ -27,7 +27,6 @@ printf("p\n");
 }
 return (0);*/
 
-int child_pid;
 int status;
 /* 	char *argv[] = {"/bin/ls", "-l", "/tmp", NULL}; */
 
