@@ -12,7 +12,7 @@ int main()
 char arr[100];
 int i=0,len=0;
 
-write("Enter string: ");
+fwrite("Enter string: ");
 getline(arr, 100, stdin);
 
 len = strlen(arr);
