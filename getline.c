@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+* main - prints user input
+*
+* Return: 0
+*/
+
 int main()
 {
 char *buffer;
