@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-* main - PID
+* main - PID and ppid
 *
 * Return: Always 0.
 */
